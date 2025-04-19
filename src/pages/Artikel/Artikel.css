@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.card h6 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card p {
+  margin-bottom: 0.5rem;
+}
+
+.container h3{
+  color: #00a5e0;
+}
+
+.chat-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #a2e063;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 15px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  text-align: center;
+}  
+
+.card-img-top {
+  border-radius: 0 !important;
+  object-fit: cover;
+  height: 200px; 
+  width: 415px;
+}

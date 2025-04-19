@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .blue {
+    color: #0bade3;
+  }
+  
+  a {
+    color: #0bade3;
+    text-decoration: none;
+  }
+    
+  .intro {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .intro h1 {
+    font-size: 28px;
+    color: #0bade3;
+  }
+  
+  .intro h2 {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  
+  .intro p.desc {
+    max-width: 700px;
+    margin: 20px auto;
+    font-size: 14px;
+  }
+  
+  .profil {
+    display: flex;
+    padding: 40px 20px;
+    margin-left: 100px;
+    justify-content: space-between;
+    margin-left: 250px;
+  }
+  
+  .profil .left {
+    width: 50%;
+  }
+  
+  .profil .tag {
+    background: #a1e97b;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .profil ul {
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+
+  .profil img {
+    width: 400px;
+    margin-top: -50px;
+    margin-left: -550px;
+  }
+  
+  .siap {
+    background: #00aee6;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .siap .cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .siap .card {
+    background: white;
+    color: #333;
+    width: 200px;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  
+  .visi-misi {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .visimisi-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .visimisi-box .box {
+    background: #a1e97b;
+    padding: 20px;
+    border-radius: 12px;
+    width: 300px;
+  }
+  
+.nilai {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 40px;
+  background-color: #f9f9f9;
+  margin-left: 130px;
+}
+
+.nilai .tag {
+  background: #a1e97b;
+  color: #333;
+  padding: 6px 14px;
+  font-size: 13px;
+  border-radius: 50px;
+  margin-bottom: -30px;
+  display: inline-block;
+}
+
+.nilai h2 {
+  width: 100%;
+  font-size: 26px;
+  color: #333;
+  margin-top: -20px;
+}
+
+.nilai ul {
+  flex: 1;
+  font-size: 16px;
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+.nilai ul li {
+  margin-bottom: 10px;
+}
+
+.nilai ul strong {
+  color: #0bade3;
+}
+
+.nilai img {
+  flex: 1;
+  max-width: 320px;
+  margin-right: 60px;
+  margin-top: -60px;
+  width: 100%;
+  border-radius: 14px;
+}
+
+.chat-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #a2e063;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+  }  

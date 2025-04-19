@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.display-4 {
+    font-weight: bold !important;
+}
+.card-body-icon {
+    position: absolute;
+    z-index: 0;
+    top: 20px;
+    right: 1px;
+    opacity: 0.4;
+    font-size: 80px;
+}
+@media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar ul {
+      flex-direction: row;
+      overflow-x: auto;
+    }
+    .sidebar ul li {
+      display: inline-block;
+    }
+}
+
+.nav-link:hover {
+    background-color: #343a40;
+    color: #ffc107 !important;
+    border-radius: 5px;
+    transition: background-color 0.1s ease, color 0.1s ease;
+}
+
+.table-striped tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.tooltip-inner {
+    background-color: #ffc107;
+    color: #000;
+    font-weight: bold;
+}
+
+.tooltip-arrow::before {
+    border-top-color: #ffc107;
+}
+.navbar .form-control {
+    width: auto;
+    min-width: 150px;
+}
+.table-bordered th, .table-bordered td {
+    padding: 10px;
+    vertical-align: middle;
+}
+.nav-link {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        padding: 15px;
+    }
+    .nav-link {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
