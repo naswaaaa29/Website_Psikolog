@@ -1,3 +1,40 @@
+#Cara Running Project Website Psikolog
+
+Ada beberapa yang harus diinstall, antara lain :
+1. npm install react-icons
+2. npm install axios
+3. npm install bootstrap
+4. npm install react-router-dom
+5. npm install @fortawesome/react-fontawesome @fortawesome/free-brands-svg-icons @fortawesome/free-solid-svg-icons
+6. npm install @fortawesome/fontawesome-free
+7. npm install remixicon
+
+Alasan Pembuatan Website Psikolog:
+Kami membuat website psikolog sebagai sarana untuk memudahkan masyarakat dalam mendapatkan akses layanan kesehatan mental yang cepat, terpercaya, dan nyaman. Di tengah kehidupan modern yang penuh tekanan, banyak individu mengalami stres, kecemasan, hingga masalah mental lainnya, namun sering kali ragu atau kesulitan untuk mencari bantuan. Melalui platform ini, kami berharap bisa menjadi jembatan antara psikolog profesional dan masyarakat yang membutuhkan bantuan, dengan cara yang mudah diakses dari mana saja dan kapan saja.
+
+a.Website ini juga bertujuan untuk:
+b.Meningkatkan kesadaran masyarakat akan pentingnya kesehatan mental.
+c.Mengurangi stigma terhadap konsultasi psikologis.
+d.Menyediakan informasi terpercaya dan edukatif seputar psikologi.
+e.Mempermudah proses konsultasi secara online maupun offline.
+
+Fitur-Fitur Website Psikolog:
+1.Beranda
+Halaman utama yang memberikan gambaran umum mengenai layanan, nilai, dan misi kami. Pengguna bisa langsung melihat highlight layanan utama dan informasi terbaru.
+
+2.Konsultasi
+Fitur untuk melakukan pemesanan konsultasi dengan psikolog, baik secara online maupun tatap muka. Dilengkapi dengan jadwal, metode konsultasi, dan informasi biaya.
+
+3.Psikolog
+Halaman ini menampilkan daftar psikolog profesional yang bekerja sama dengan kami. Setiap profil dilengkapi dengan spesialisasi, pengalaman, dan kualifikasi agar pengguna bisa memilih sesuai kebutuhan.
+
+4.Artikel
+Menyediakan artikel-artikel edukatif tentang kesehatan mental, tips menghadapi stres, pengembangan diri, dan berbagai topik psikologis lainnya.
+
+5.Tentang Kami
+Menjelaskan latar belakang platform ini, visi-misi, tim di balik layar, serta komitmen kami dalam mendukung kesehatan mental masyarakat.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
